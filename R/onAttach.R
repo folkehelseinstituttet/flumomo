@@ -1,5 +1,5 @@
 .onAttach <- function(libname, pkgname) {
   packageStartupMessage("PACKAGE: attrib")
-  packageStartupMessage("Version: 2019.10.24 at 10:19")
+  packageStartupMessage("Version: 2019.12.04 at 12:36")
   packageStartupMessage("Developed by Richard White, Norwegian Institute of Public Health")
 }
