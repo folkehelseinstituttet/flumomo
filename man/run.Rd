@@ -4,7 +4,7 @@
 \alias{run}
 \title{run}
 \usage{
-run(country, country_code, start_year = 2013, start_week = 40,
+run(country, country_code, start_year = end_year - 4, start_week = 40,
   end_year, end_week = 40, data_deaths, data_ia,
   data_weather = download_weather(country_code),
   data_population = NULL, IArest = TRUE, IAlags = 2, ETlags = 2)
