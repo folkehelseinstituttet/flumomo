@@ -17,7 +17,7 @@
 run <- function(
                 country,
                 country_code,
-                start_year = 2013,
+                start_year = end_year - 4,
                 start_week = 40,
                 end_year,
                 end_week = 40,

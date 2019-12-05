@@ -19,6 +19,7 @@ download_weather <- function(country_code) {
 # PARM end_week last week in end_year to be included
 TemperatureData <- function(data_weather, start_year, start_week, end_year, end_week) {
   retval <- copy(data_weather)
+  setDT(retval)
   retval[, date := as.Date(date)]
   retval[is.na(pop3), pop3 <- 1]
 
