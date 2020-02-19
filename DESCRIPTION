@@ -1,6 +1,6 @@
 Package: flumomo
 Title: Attributable Burden of Disease Due to Influenza
-Version: 2019.12.5
+Version: 2020.2.19
 Authors@R: person("Richard", "White", email = "w@rwhite.no", role = c("aut", "cre"))
 Description: An implementation of the flumomo model from the euromomo network.
 Depends: R (>= 3.5.0)
