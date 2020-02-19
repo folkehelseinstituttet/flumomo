@@ -1,8 +1,8 @@
 Package: flumomo
-Title: Structural Data for Norway
+Title: Attributable Burden of Disease Due to Influenza
 Version: 2019.12.5
 Authors@R: person("Richard", "White", email = "w@rwhite.no", role = c("aut", "cre"))
-Description: Provides structural data for Norway. Datasets relating to maps, population in municipalities, vaccination coverage for childhood vaccines, municipality/county matching, and how different municipalities have merged/redistricted over time from 2006 to 2019.
+Description: An implementation of the flumomo model from the euromomo network.
 Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8
